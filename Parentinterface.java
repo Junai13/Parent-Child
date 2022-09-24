@@ -1,14 +1,14 @@
 package interfaceparent;
 
 
-    abstract class Parent {
+    abstract class Parentinterface {
         void print() {
             println();
         }
 
         abstract void println();
     }
-    class Child extends Parent {
+    class Child extends Parentinterface {
         @Override
         void println() {
             System.out.println("println");
