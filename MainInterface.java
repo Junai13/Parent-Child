@@ -4,7 +4,7 @@ public class Main {
 
         public static void main(String[] args) {
 
-            Parent parentchild=new Child();
+            Parentinterface parentchild=new Child();
             parentchild.print();
 
         }
