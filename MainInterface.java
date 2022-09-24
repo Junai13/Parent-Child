@@ -4,8 +4,8 @@ public class Main {
 
         public static void main(String[] args) {
 
-            Parent callChild=new Child();
-            callChild.print();
+            Parent parentchild=new Child();
+            parentchild.print();
 
         }
 
